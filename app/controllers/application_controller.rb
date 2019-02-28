@@ -38,7 +38,7 @@ class ApplicationController < Sinatra::Base
       session[:user_id] = @user.id 
       redirect '/users/home'
     end
-    redirect '/registrations/signup'
+    redirect '/sessions/login'
   end
 
   post '/registrations' do
