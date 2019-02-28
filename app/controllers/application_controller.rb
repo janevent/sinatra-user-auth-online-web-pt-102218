@@ -36,6 +36,7 @@ class ApplicationController < Sinatra::Base
     @user = User.find(@user.id)
     if @user 
       session[:user_id] = @user.id 
+      redirect '/users/home'
     end
     
     redirect '/users/home'
