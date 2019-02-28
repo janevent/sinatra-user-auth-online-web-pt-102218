@@ -34,6 +34,7 @@ class ApplicationController < Sinatra::Base
   
   post '/sessions' do 
     
+    redirect '/users/home'
   end
 
   post '/registrations' do
