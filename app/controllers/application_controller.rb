@@ -24,7 +24,7 @@ class ApplicationController < Sinatra::Base
     redirect '/users/home'
     
   end
-  binding.pry
+  
 
   get '/sessions/login' do
 
