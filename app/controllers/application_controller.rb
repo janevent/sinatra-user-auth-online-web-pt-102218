@@ -33,6 +33,7 @@ class ApplicationController < Sinatra::Base
   end
   
   post '/sessions' do 
+    
   end
 
   post '/registrations' do
